@@ -4,7 +4,7 @@
 
 ### Minimum Requirements :
 * JDK 8 
-* Maven 
+* Maven 3
 
 ### How to Run
 * Build the jar by `mvn clean compile package`
