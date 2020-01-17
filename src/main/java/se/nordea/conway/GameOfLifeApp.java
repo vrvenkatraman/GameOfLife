@@ -15,7 +15,7 @@ public class GameOfLifeApp {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Press 1 if you want Randomize the Grid and 2 if you want to use the input file: ");
+        System.out.print("Press 1 if you want Randomize the Grid and 2 if you want to use the default input file: ");
         int choice = validateInput(scanner, VALID_CHOICE);
         System.out.print("Number of Iterations: ");
         int iterations = validateInput(scanner, VALID_INPUT);
